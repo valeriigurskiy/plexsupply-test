@@ -1,4 +1,5 @@
 package com;
 
-public class Task {
+public record Task(int id, int number) {
+
 }
